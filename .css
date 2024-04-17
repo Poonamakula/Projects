@@ -1,0 +1,65 @@
+.arrange {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input:required {
+    width: 490px;
+    margin-left: 10px;
+    height: 30px;
+    color: grey;
+    background-color: lightgrey;
+    border-radius: 15px;
+
+}
+
+button:enabled {
+    margin-left: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.input-container button {
+    position: absolute;
+    height: 33px;
+    border: 0px;
+    background-color: lightgrey;
+    margin-left: 4px;
+    width: 40px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.in-contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.movement:hover {
+    transition: 2s;
+    transform: scale(2)
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    height: 95px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.icon-style {
+    font-size: 50px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.tick {
+    color: #4FB6EC;
+    font-size: 19px;
+}
