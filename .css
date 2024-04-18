@@ -63,3 +63,13 @@ button:enabled {
     color: #4FB6EC;
     font-size: 19px;
 }
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+}
+.contact:hover{
+    background-color: gray;
+}
